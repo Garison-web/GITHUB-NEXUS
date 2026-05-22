@@ -29,7 +29,7 @@ export function LanguageChart({ repos }: Props) {
           <Pie data={data} cx="50%" cy="50%" innerRadius={45} outerRadius={75} dataKey="value" paddingAngle={2}>
             {data.map((_, i) => <Cell key={i} fill={COLORS[i % COLORS.length]} strokeWidth={0} />)}
           </Pie>
-          <Tooltip formatter={(v: number) => [`${v} repos (${Math.round(v/total*100)}%)`, '']} />
+          <Tooltip formatter={(v) => [`${v} repos (${Math.round(Number(v)/total*100)}%)`, '']} />
         </PieChart>
       </ResponsiveContainer>
       <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5">
