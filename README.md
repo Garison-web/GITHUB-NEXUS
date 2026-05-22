@@ -18,6 +18,14 @@
 
 ---
 
+<p align="center">
+  <a href="https://github-dashboard-tau-five.vercel.app">
+    <img src="https://api.microlink.io/?url=https%3A%2F%2Fgithub-dashboard-tau-five.vercel.app&screenshot=true&meta=false&embed=screenshot.url" alt="GitHub Nexus Screenshot" width="85%" style="border-radius:12px; box-shadow: 0 0 30px #00d4ff44;" />
+  </a>
+</p>
+
+---
+
 ## What is GitHub Nexus?
 
 **GitHub Nexus** is a cinematic, space-themed GitHub analytics dashboard. Drop in any GitHub username and get a stunning visual breakdown of their repositories, programming languages, star counts, and recent activity — all rendered against an animated starfield with glassmorphism cards.
