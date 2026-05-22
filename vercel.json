@@ -1,8 +1,7 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "node scripts/build-nexus.cjs",
   "outputDirectory": "dist",
-  "framework": "vite",
   "rewrites": [
-    { "source": "/nexus", "destination": "/nexus/GitHub%20Nexus.html" }
+    { "source": "/nexus", "destination": "/index.html" }
   ]
 }
